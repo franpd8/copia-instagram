@@ -1,0 +1,366 @@
+:root {
+  --white: #fff;
+  --blue: #0095f6;
+  --grey: #f1eded;
+  --darkgrey: #878686;
+  --facebook: #385185;
+  --background: #fcfcfc;
+}
+body {
+  /* background-color: var(--background);
+  margin: 10vh auto;
+  max-width: 880px; */
+  background-color: var(--background);
+  justify-content: center;
+  margin:none;
+  /* margin: 100px auto; */
+}
+section {
+    background-color: var(--background);
+    /* margin: 10vh auto; */
+    /* width: 880px; */
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+   
+}
+section .box {
+  width: 400px;
+  border: solid 2px black;
+}
+section .box img {
+  width: 100%;
+}
+section .mockup {
+  display: block;
+}
+section .login {
+  width: 400px;
+  border: solid 2px black;
+}
+section .login .login-top {
+  border: 1px solid var(--darkgrey);
+  background-color: var(--white);
+  max-height: 500px;
+  padding: 20px 50px;
+}
+.login-top > div {
+  width: 300px;
+}
+section .login .login-top .insta-logo {
+  border: 2px solid red;
+  margin: 24px 0;
+  width: 300px;
+  text-align: center;
+  /* lets eye-balling the alignment */
+  padding-top: 4px;
+}
+section .login .login-top .insta-logo img {
+  width: 200px;
+}
+section .login .login-top .user-details {
+  border: 2px solid orange;
+}
+section .login .login-top .user-details .user-login {
+  border: 2px solid var(--darkgrey);
+  color: var(--darkgrey);
+  background-color: var(--grey);
+
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+.user-details a {
+  text-decoration: none;
+}
+section .login .login-top .user-details .login-button {
+  border: 2px solid var(--blue);
+  text-align: center;
+  font-weight: 800;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 4px;
+  padding: 4px;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+section .login .login-top .spacer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 16px 0;
+}
+section .login .login-top .spacer .space {
+  width: 120px;
+  padding-top: 3px;
+  opacity: 0.6;
+}
+section .login .login-top .spacer .or {
+  color: var(--darkgrey);
+  font-weight: 800;
+}
+section .login .login-top .facebook-details {
+  text-align: center;
+  color: var(--facebook);
+  margin: 16px 0;
+  border: solid 2px black;
+}
+section .login .login-top .facebook-details .login-fb {
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+section .login .login-top .facebook-details .forg-pass-fb {
+  font-size: 14px;
+}
+section .login .login-middle {
+  border: 1px solid var(--darkgrey);
+  background-color: var(--white);
+  margin: 20px 0;
+  padding: 20px 50px;
+  text-align: center;
+}
+section .login .login-middle .register {
+  color: var(--blue);
+  font-weight: 800;
+}
+section .login .login-bottom {
+  border: 2px solid black;
+  text-align: center;
+}
+section .login .login-bottom .download-app {
+  margin-bottom: 20px;
+}
+section .login .login-bottom .download-app-logos {
+  display: flex;
+  justify-content: center;
+}
+section .login .login-bottom .download-app-logos img {
+  width: 150px;
+  margin: 0 4px;
+}
+footer {
+  margin: 32px auto;
+}
+footer a {
+  text-decoration: none;
+  color: var(--darkgrey);
+  margin: 8px;
+  font-size: 14px;
+}
+footer .links-top,
+footer .links-down,
+footer .copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer .copyright {
+  margin: 8px 0;
+}
+/* HOMEPAGE*/
+
+header{
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    
+    background-color: var(--white);
+    border-bottom: 1px solid var(--darkgrey);
+    /* padding:0 10vw;  */
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+header h1 img{
+    width:120px;
+}
+.logo{
+    padding-left: 10vw;
+    padding-top:8px;
+}
+.navbar{
+    padding-right:10vw;
+}
+header .search{
+    width:400px;
+    text-align: center;
+    border: solid 1px var(--darkgrey);
+    border-radius:4px;
+    background-color: var(--white);
+    padding: 4px;
+    color: var(--darkgrey);
+
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+nav{
+    display:flex;
+    align-items: center;
+}
+nav a{
+   margin-right:8px;
+}
+ .icon {
+    height:40px;
+    border-radius:100%;
+}
+.user-icon {
+    height:30px;
+    border-radius:100%;
+    border:2px solid var(--white);
+}
+
+.ui-icon{
+    height:40px;
+}
+
+.profile{
+    border: 2px solid black;
+}
+.feed{
+    /* border:2px solid red; */
+    width:50%;
+    margin: 100px auto;
+   
+}
+.feed .post{
+    border: 1px solid var(--darkgrey);
+    border-radius:4px;
+    margin: 40px 0;
+}
+
+.feed .post .user-post{
+    display:flex;
+    border-bottom: 1px solid var(--darkgrey);
+    align-items: center;
+    padding: 8px 16px;
+}
+.feed .post .user-post img{
+    margin-right:16px;
+}
+/* .feed .post .picture-post img{
+    width:100%;
+    height:auto;
+} */
+.bckimg{
+    height:50vw;
+    background-size:cover;
+}
+.p0{
+    background-image: url(/assets/post0.jpeg);
+}
+.p1{
+    background-image: url(/assets/post1.jpeg);
+}
+.p2{
+    background-image: url(/assets/post2.jpeg);
+}
+
+.post-info{
+border-bottom:1px solid var(--grey);
+padding:16px;
+}
+.icons-post{
+    display:flex;
+    justify-content: space-between;
+}
+.icons-left{
+    display:flex;
+}
+.icons-left img{
+    margin-right:8px;
+}
+.caption-likes{
+margin-top:8px;
+}
+.likes{
+    display:flex;
+}
+
+.user-icons{
+    position:relative;
+    width:100px;
+    
+}
+.user-icon{
+    position:absolute;
+    top:0;
+}
+.icon-1{
+    left:0px;
+    z-index:10;
+}
+.icon-2{
+    left:25px;
+    z-index:9;
+}
+.icon-3{
+    left:50px;
+    z-index:8;
+}
+.liked-by{
+    /* position:relative;
+    left:10vw;
+    top:5px; */
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.caption{
+margin: 8px 0;
+}
+.date{
+    color: var(--darkgrey);
+}
+
+.user-tag, 
+.hash-tag{
+    color: #24496a; 
+}
+
+.your-comment{
+    display:flex;
+    justify-content: space-between;
+    margin:16px;
+    align-items: center;
+}
+.add-comment img{
+    margin-right:16px;
+}
+.add-comment{
+    color:var(--darkgrey);
+    display: flex;
+    align-items: center;
+}
+
+.send-comment{
+    font-weight: 800;
+    color: var(--blue);
+    opacity:0.3;
+}
+/* MEDIA QUERIES */
+
+/* MAIN PAGE */
+@media screen and (max-width: 890px) {
+  section .mockup {
+    display: none;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  /* this line works as well to center 
+    the login box 
+    
+    .login{
+        margin:0 auto
+      } */
+}
+
+/* HOMEPAGE */
+
