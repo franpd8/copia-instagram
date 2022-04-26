@@ -26,7 +26,8 @@ section {
 }
 section .box {
   width: 400px;
-  border: solid 2px black;
+  margin-left: 20px;
+  /* border: solid 2px black; */
 }
 section .box img {
   width: 100%;
@@ -36,7 +37,7 @@ section .mockup {
 }
 section .login {
   width: 400px;
-  border: solid 2px black;
+  /* border: solid 2px black; */
 }
 section .login .login-top {
   border: 1px solid var(--darkgrey);
@@ -48,7 +49,7 @@ section .login .login-top {
   width: 300px;
 }
 section .login .login-top .insta-logo {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 24px 0;
   width: 300px;
   text-align: center;
@@ -58,9 +59,9 @@ section .login .login-top .insta-logo {
 section .login .login-top .insta-logo img {
   width: 200px;
 }
-section .login .login-top .user-details {
+/* section .login .login-top .user-details {
   border: 2px solid orange;
-}
+} */
 section .login .login-top .user-details .user-login {
   border: 2px solid var(--darkgrey);
   color: var(--darkgrey);
@@ -103,7 +104,7 @@ section .login .login-top .facebook-details {
   text-align: center;
   color: var(--facebook);
   margin: 16px 0;
-  border: solid 2px black;
+  /* border: solid 2px black; */
 }
 section .login .login-top .facebook-details .login-fb {
   font-weight: 800;
@@ -124,7 +125,7 @@ section .login .login-middle .register {
   font-weight: 800;
 }
 section .login .login-bottom {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
 }
 section .login .login-bottom .download-app {
@@ -173,6 +174,7 @@ header{
     position:fixed;
     top:0;
     left:0;
+    z-index:99;
 }
 
 header h1 img{
